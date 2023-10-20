@@ -1,35 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 1</title>
-  </head>
-  <input type="text" id="liczba1" />
-  <button id="przelicz">Przelicz</button>
-  <div id="wyniki"></div>
-  <script src="main.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    // console.log('test')
-    // const liczba1 = document.getElementById("liczba1")
-    const liczba2 = document.querySelector("liczba1")
+</head>
+<body>
+        <input type="number" id="a"/><br>
+        <input type="number" id="b"/><br>
+        <input type="number" id="c"/><br>
+        <input type="number" id="d"/><br>
+        <button id ="calculateBtn" type="submit" onclick="calculate()">Przelicz</button><br>
 
-    const przeliczBtn = document.querySelector("@przelicz")
-    przeliczBtn.AddEventListener('click', () => {
-      console.log('User kliknal')
-    })
-
-    const input = '123'
-    // const inputNumber = +input
-    // const inputNumber = Number(input)
-    const inputNumber = ParserInt(input)
-
-    const min = Math.min(1,2,3,4)
-    const max = Math.max(72,5,6,22)
-    const sum = Math.sum(1,45,6,56)
-
-    const wynik = document.queryselector('@wynik')
-    wynik.innerHTML = 'Suma' + sum
-  </script>
-  <body></body>
+        Suma: <input type="text" id="sum" disabled><br>
+        Średnia: <input type="text" name="" id="sred" disabled><br>
+        Min: <input type="text" id="min" disabled><br>
+        Max: <input type="text" id="max" disabled><br>
+        <script src="main.js" type="text/javascript"></script>
+</body>
 </html>
