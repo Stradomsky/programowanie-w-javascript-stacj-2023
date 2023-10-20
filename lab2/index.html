@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab2</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="slider">
+        <div class="slider-image">
+            <img src="./imgs/100.jpg">
+        </div>
+        <div class="slider-image">
+            <img src="./imgs/102.jpg">
+        </div>
+        <div class="slider-image">
+            <img src="./imgs/200.jpg">
+        </div>
+        <div class="slider-image">
+            <img src="./imgs/207.jpg">
+        </div>
+        <div class="slider-image">
+            <img src="./imgs/400.jpg">
+        </div>
+    </div>
+
+    <div>
+        <button onclick="moveSlider(0)">1</button>
+        <button onclick="moveSlider(1)">2</button>
+        <button onclick="moveSlider(2)">3</button>
+        <button onclick="moveSlider(3)">4</button>
+        <button onclick="moveSlider(4)">5</button>
+    </div>
+
+    <div>
+        <button id="previous">Poprzedni</button>
+        <button id="next">Następny</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

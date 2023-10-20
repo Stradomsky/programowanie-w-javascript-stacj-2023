@@ -1,0 +1,19 @@
+#slider {
+    width: 750px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slider-image {
+    position: absolute;
+    display: flex;
+    left: 100%;
+    transition: left 0.75s;
+  }
+  
+  button {
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+  }
