@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DrumKit</title>
+</head>
+<body>
+    <div class="soundSources">
+        <audio src="./Sounds/boom.wav" controls id="boom"></audio>
+        <audio src="./Sounds/clap.wav" controls id="clap"></audio>
+        <audio src="./Sounds/hihat.wav" controls id="hihat"></audio>
+        <audio src="./Sounds/kick.wav" controls id="kick"></audio>
+        <audio src="./Sounds/openhat.wav" controls id="openhat"></audio>
+        <audio src="./Sounds/ride.wav" controls id="ride"></audio>
+        <audio src="./Sounds/snare.wav" controls id="snare"></audio>
+        <audio src="./Sounds/tink.wav" controls id="tink"></audio>
+        <audio src="./Sounds/tom.wav" controls id="tom"></audio>
+    </div>
+    <div class="content">
+        <div class="soundSchema breakLine">
+            <p class="soundSchemaElement">Boom: <b>Q</b></p>
+            <p class="soundSchemaElement">Clap: <b>W</b></p>
+            <p class="soundSchemaElement">Hihat: <b>E</b></p>
+            <p class="soundSchemaElement">Kick: <b>R</b></p>
+            <p class="soundSchemaElement">Openhat: <b>T</b></p>
+            <p class="soundSchemaElement">Ride: <b>Y</b></p>
+            <p class="soundSchemaElement">Snare: <b>U</b></p>
+            <p class="soundSchemaElement">Tink: <b>I</b></p>
+            <p class="soundSchemaElement">Tom: <b>O</b></p>
+        </div>
+        <div class="breakLine">
+            <button class="buttonIsNotRecording" id="startStopRecordingButton"></button>
+            <button class="playSelectedButton">Play Selected</button>
+        </div>
+        <div class="recordsContainer">
+            <div class="recordContainer" id="egzampleHiddenRecord">
+                <div class="recordContainerButtonsContainer">
+                    <button class="deleteRecordButton"><b>X</b></button>
+                    <button class="playRecordButton"><b>Play</b></button>
+                    <input class="selectedCheckbox" type="checkbox">
+                </div>
+                <div class="recordContainerMelodyContainer">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+</html>
