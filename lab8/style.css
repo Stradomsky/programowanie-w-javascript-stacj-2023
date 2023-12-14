@@ -1,0 +1,22 @@
+body{
+    background-color: #ffffff;
+}
+
+header{
+    text-align: center;
+    font-size: 20px;
+    font-family: Brush Script MT;
+    border-bottom-style: solid;
+}
+
+.bar{
+    padding: 15px;
+    border-bottom-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.canvas{
+    margin: 5px;
+}
