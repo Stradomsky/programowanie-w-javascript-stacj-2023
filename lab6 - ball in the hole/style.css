@@ -1,0 +1,73 @@
+body{
+  height: 98vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(57, 13, 144);
+  background: linear-gradient(153deg, rgb(72, 79, 162) 0%, rgba(120,226,112,1) 100%);
+}
+
+header{
+  text-align: center;
+  border-bottom: solid;
+  font-size: 45px;
+}
+
+.score_board{
+  flex-direction: row;
+  display: flex;
+  font-size: 18px;
+  padding: 20px 0px 20px 0px;
+  border-bottom: solid;
+}
+
+#score_container{
+  padding: 0 50px 0 50px;
+}
+
+  .game_board{
+    margin: 20px;
+    width: 750px;
+    border: solid 5px;
+    height: 750px;
+    position: relative;
+  }
+  #instructionForm h1 {
+    text-align: center;
+  }
+  
+  #ball {
+    width: 50px;
+    visibility: hidden;
+    height: 50px;
+    border-radius: 50%;
+    top: 90px;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    left: 90px;
+  }
+  
+  .container {
+    overflow: hidden;
+  }
+  
+  .hole {
+    width: 75px;
+    visibility: hidden;
+    border-radius: 50%;
+    height: 75px;
+    position: absolute;
+    z-index: -2;
+    background: #000000;
+  }
+  
+  #instructionForm button {
+    margin: 0 auto;
+    width: 200px;
+    display: block;
+    border-radius: 20px;
+    font-size: 3em;
+    background-color: #2d8f00;
+    height: 150px;
+  }
